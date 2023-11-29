@@ -21,4 +21,8 @@ Configure la dificultad del juego ajutando la variable "MAX_PROFUNIDAD" que cont
 el árbol. 
 
 
-Minimax 
+Minimax Sin Poda
+El algoritmo sin Poda, exploraria todas las ramas del árbol de juego hasta la profunidad máxima especificada.Calcularia el valor de cada nodo hoja y propagaria los valores hacia arriba hasta la raíz.
+Osea que seria funcional pero seria muy lento para juegos complejos debido la gran cantidad que nodos que deberia explorar.
+Minumax Con Poda
+Reduce la cantidad de nodos evaluados, como dice su nombre, poda las ramas inecesarias, osea que evita explorar ramas que no afecta a la decesión final, esto mejora significamente el rediemineto de la IA.
